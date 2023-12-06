@@ -18,7 +18,7 @@ import { styled, ThemeProvider } from "@mui/system";
 import { createTheme } from "@mui/material/styles";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
-const socket = io(`http://localhost:5000`);
+const socket = io(`https://realtime-chat-app-gdfh.onrender.com`);
 
 const ChatContainer = styled(Container)({
   display: "flex",
